@@ -1,0 +1,24 @@
+{
+    "name": "osynapsy.net/osynapsycore",
+    "version": "0.8.1",
+    "homepage": "http://www.osynapsy.net",
+    "type": "library",
+    "description": "Osynapsy Core is a framework MVC for develop Rich Internet Application (RIA).",
+    "keywords": ["Framework","Rich application","MVC"],
+    "license": "LGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "p.celeste@osynapsy.net",
+            "homepage": "https://github.com/osynapsy/osynapsy/wiki"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Osynapsy\\Core\\": "src/Osynapsy/Core"
+        }
+    }
+}
